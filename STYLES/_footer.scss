@@ -1,0 +1,26 @@
+.pie{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.redessociales{
+    display: grid;
+    /*grid-template-areas: "Insta face twit spot";*/
+    grid-template-columns: 70px 70px 70px 70px;
+    align-items: center;
+    justify-items: center;
+}
+
+.copyright{
+    display: grid;
+    /*grid-template-areas: "TD 2021";*/
+    grid-template-columns: 20% 80%;
+    align-items: center;
+    justify-items: center;
+
+    .hello-blue{
+        font-size: 0.7rem;
+        width: 100%;
+    }
+}

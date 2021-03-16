@@ -1,0 +1,166 @@
+h1{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 2.5rem;
+}
+
+h2,h3{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.6rem;
+}
+
+h4{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 0.9rem;
+
+}
+
+p{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.8rem;
+}
+
+.episodios{
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    width: 480px;
+    padding: 60px 20px 150px 20px;
+    clip-path: polygon(0 3%, 100% 0%, 100% 98%, 0% 100%);
+
+}
+.telefono{
+    position: relative;
+}
+.img-phone{
+    position: relative;
+    top: -100px;
+}
+
+.de_donde{
+    position: relative;
+    top: -80px;
+}
+
+.epi_word{
+    color: white;
+}
+
+.invitados{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+
+}
+
+.hello{
+    width: 480px;
+    padding: 20px;
+    margin-bottom: 24px;
+    
+}
+
+
+.de_donde_venimos{
+
+    width: 480px;
+    padding: 20px;
+}
+
+.temas{
+    display: grid;
+    grid-template-areas:    "Titulo"
+                            "img1"
+                            "txt1"
+                            "img2"
+                            "txt2"
+                            "img3"
+                            "txt3"
+                            "img4"
+                            "txt4";
+    justify-items:center;
+    align-items:center;
+
+}
+.txt-temas{
+    grid-area: Titulo;
+}
+
+.tema1, .tema2, .tema3, .tema4{
+    width: 70%;
+    padding: 40px;
+}
+
+.tema1{
+    grid-area: img1;
+    order: 1;
+}
+
+.txt1{
+    grid-area: txt1;
+    order: 2;
+}
+
+.tema2{
+    grid-area: img2;
+    order: 3;
+}
+
+.txt2{
+    grid-area: txt2;
+    order: 4;
+}
+
+.tema3{
+    grid-area: img3;
+    order: 5;
+}
+.txt3{
+    grid-area: txt3;
+    order: 6;
+}
+
+.tema4{
+    grid-area: img4;
+    order: 7;
+}
+
+.txt4{
+
+    grid-area: txt4;
+    order: 8;
+}
+
+.topics{
+    display: none;
+}
+
+.novedades{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    padding: 70px 10px 20px 10px;
+    clip-path: polygon(0 16%, 100% 0%, 100% 100%, 0% 100%);
+    color: white;
+}
+
+.btn-2{
+    align-self: center;
+    padding: 10px 25px 10px 25px;
+    color: black;
+}
+
+.about{
+    display: none;
+}
+
+.interview{
+    display: none;
+}
+
+.anchor_episod{
+    display: none;
+}
+

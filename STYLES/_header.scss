@@ -1,0 +1,49 @@
+header{
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 60px auto;
+    /*grid-template-areas:    "logo HAM"
+                            "menu menu";*/
+    justify-items: end;
+    align-items: end;
+
+    .pale{
+        text-decoration: dashed;
+    }
+
+    .logo2{
+            width: 50px;
+            justify-self: center;
+            align-self: center;
+            
+    }
+
+    ul{
+        
+        flex-wrap: wrap;
+        //justify-content:flex-start;
+        background: #0000EC;
+        list-style: none;
+        color: white;
+        //background-color: yellowgreen;
+        width: 100%;
+        animation-duration: 1s;
+        animation-name: nav-menu;
+
+        li{
+            padding:12px 5px 12px 5px;
+            flex-direction: column;
+        }
+    }
+    @keyframes nav-menu{
+        from {
+            margin-left: 100%;
+          }
+        
+          to {
+            margin-left: 0%;
+          }
+    }
+
+}

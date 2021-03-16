@@ -1,0 +1,30 @@
+a{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.8rem;
+    background-color: #00F3BB;
+    color: #060A24;
+    padding: 16px 59px 16px 59px;
+    align-self:flex-start
+}
+a:hover{
+    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+    color: white;
+}
+
+.a1{
+    color: white;
+    background-color:#0000FE;
+}
+
+.a1:hover{
+    color:#00F3BB ;
+    text-decoration: line-through;
+    background-image: none;
+}
+
+.a1:active{
+    color: white;
+    text-decoration: line-through;
+    background-image: none;
+
+}
